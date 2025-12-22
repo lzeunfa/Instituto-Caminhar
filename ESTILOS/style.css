@@ -41,19 +41,37 @@ header{
 
     display: flex;
     justify-content: center;
+
+    padding: 0px 10px 0px 10px;
+}
+
+#navHeader{
+    width: 100%;
+}
+
+#containerHeader{
+    width: 100%;
 }
 
 #ulMenu{
     justify-content: space-between !important;
 
-    min-width: 850px;
+    max-width: 900px;
     width: 90%;
+}
+
+header li{
+    margin: 5px;
 }
 
 header a{
     color: white !important;
 
     font-size: 1.125em !important;
+
+    border-bottom: 3px solid transparent;
+
+    text-decoration: none;
 }
 
 header a:hover{
@@ -70,6 +88,8 @@ header a:hover{
     padding: 10px;
 
     border-radius: 4px;
+
+    display: none;
 }
 
 .btnFaleConosco:hover{
@@ -79,4 +99,6 @@ header a:hover{
 header nav{
     width: 70%;
 }
+
+/*fim header*/
 
