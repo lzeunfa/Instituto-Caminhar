@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/*Configs gerais*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*variavei*/
+:root{
+    --corPrin: #255465;
+    --corSec: #204771;
+    
+    --letraDestaque: #378AA7;
+    --laranja: #FFB100;
+
+    --textoCinzaPrin: rgba(0, 0, 0, 0.507);
+    --textoCinzaSec: #A3A3A2;
+
+    --fundoBrancoTransparente: rgba(255, 255, 255, 0.375);
+
+    /*cores pro degrade insta*/
+    --roxo: #9433E9;
+    --rosa: #D7277D;
+    --laranja: #F15E31;
+}
