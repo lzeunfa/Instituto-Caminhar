@@ -5,6 +5,13 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+
+    font-family: 'inter', Arial, sans-serif ;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url(../FONTS/Inter/static/Inter_18pt-Regular.ttf);
 }
 
 /*variavei*/
@@ -13,7 +20,8 @@
     --corSec: #204771;
     
     --letraDestaque: #378AA7;
-    --laranja: #FFB100;
+    --laranjaSec: #bb9045;
+    --laranjaPrin: #FFB100;
 
     --textoCinzaPrin: rgba(0, 0, 0, 0.507);
     --textoCinzaSec: #A3A3A2;
@@ -25,3 +33,50 @@
     --rosa: #D7277D;
     --laranja: #F15E31;
 }
+
+/*inicio header*/
+
+header{
+    background-color: var(--corPrin);
+
+    display: flex;
+    justify-content: center;
+}
+
+#ulMenu{
+    justify-content: space-between !important;
+
+    min-width: 850px;
+    width: 90%;
+}
+
+header a{
+    color: white !important;
+
+    font-size: 1.125em !important;
+}
+
+header a:hover{
+    border-bottom: 3px solid var(--corSec);
+}
+
+.btnFaleConosco{
+    border-bottom: none !important;
+
+    text-decoration: none;
+
+    background-color: var(--laranjaSec);
+
+    padding: 10px;
+
+    border-radius: 4px;
+}
+
+.btnFaleConosco:hover{
+    background-color: var(--laranjaPrin);
+}
+
+header nav{
+    width: 70%;
+}
+
