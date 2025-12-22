@@ -17,25 +17,33 @@
     <!--Bootstrap css-->
     <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
 
+    <!--css-->
     <link rel="stylesheet" href="ESTILOS/style.css">
+
+    <!--css media querie-->
+    <link rel="stylesheet" href="ESTILOS/mq.css">
 </head>
 <body>
 
     <header id="menu">
 
-        <nav class="navbar navbar-expand-xl">
+        <nav id="navHeader" class="navbar navbar-expand-xl navbar-dark">
 
-            <div class="container-fluid">
+            <!--div para ajustar tamanho ocupado pelo conteudo-->
+            <div id="containerHeader">
 
-                <!--logo do instituto-->
-                <img class="me-2" src="IMGS/logo/Logo_Instituto_Caminhar_Negativo.png" alt="logo-instituto-caminhar" width="100px">
+                <!--div para centralização de conteúdo em tela pequena-->
+                <div class="d-flex align-items-center justify-content-between">
+                    <!--logo do instituto-->
+                    <img class="me-2" src="IMGS/logo/Logo_Instituto_Caminhar_Negativo.png" alt="logo-instituto-caminhar" width="100px">
 
-                <!--btn de redimensionamento menu-->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!--btn de redimensionamento menu-->
+                    <button  class="navbar-toggler bg-transparent border-0 color-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!--icone-->
+                    <span class="navbar-toggler-icon bs-navbar-toggler-icon-bg"></span>
+                    </button>
 
-                <!--icone-->
-                <span class="navbar-toggler-icon"></span>
-                </button>
+                </div>
 
                 <div class="collapse navbar-collapse" id="navbarNav">
 
@@ -43,33 +51,34 @@
                     <ul id="ulMenu" class="navbar-nav align-items-center">
 
                         <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Início</a>
+                        <a aria-current="page" href="#">Início</a>
                         </li>
                         
                         <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
+                        <a  href="#">Sobre</a>
                         </li>
 
                         <li class="nav-item">
-                        <a class="nav-link" href="#">Especialidades</a>
+                        <a href="#">Especialidades</a>
                         </li>
 
                         <li class="nav-item">
-                        <a class="nav-link" href="#">Avaliações</a>
+                        <a href="#">Avaliações</a>
                         </li>
 
                         <li class="nav-item">
-                        <a class="nav-link" href="#">Unidades</a>
+                        <a href="#">Unidades</a>
                         </li>
 
                         <li class="nav-item">
-                        <a class="nav-link" href="#">Bastidores</a>
+                        <a href="#">Bastidores</a>
                         </li>
 
                         <li class="nav-item">
-                        <a class="nav-link" href="#">Publicações</a>
+                        <a href="#">Publicações</a>
                         </li>
 
+                        <!--btn fale conosco-->
                         <li class="nav-item">
                         <a class="btnFaleConosco" class="nav-link ps-5" href="#">Fale conosco</a>
                         </li>
@@ -83,6 +92,7 @@
         </nav>
 
     </header>
+    <!--fim header-->
 
     
     <!--bootstrap js-->
