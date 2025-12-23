@@ -14,6 +14,11 @@
     src: url(../FONTS/Inter/static/Inter_18pt-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'inter bold';
+    src: url(../FONTS/Inter/static/Inter_18pt-Bold.ttf);
+}
+
 /*variavei*/
 :root{
     --corPrin: #255465;
@@ -152,3 +157,51 @@ header nav{
 
 /*fim header*/
 
+/*inicio main*/
+
+#fraseTopo{
+    background-image: url(/IMGS/background/fundo_pontilhado.png);
+    background-size: contain;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+}
+
+#fraseTopo h1, #fraseTopo h2{
+    color: var(--corSec);
+
+    text-align: center;
+
+    font-family: 'inter bold';
+}
+
+#textoEspecTopo{
+    color: var(--letraDestaque);
+
+    font-family: 'inter bold';
+}
+
+.btnFaleConosco2{
+    background-color: var(--laranjaPrin);
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    padding: 5px;
+
+    font-family: 'inter bold';
+
+}
+
+.btnFaleConosco2:hover{
+    background-color: var(--laranjaSec);
+}
+
+/*fim main*/
