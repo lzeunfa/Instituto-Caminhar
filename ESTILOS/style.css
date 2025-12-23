@@ -50,13 +50,10 @@ header{
 }
 
 #containerHeader{
-    width: 100%;
+    width: 90%;
 }
 
 #ulMenu{
-    justify-content: space-between !important;
-
-    max-width: 900px;
     width: 100%;
 }
 
@@ -79,6 +76,14 @@ header li:hover{
 
 .liBtnFaleConosco{
     display: none;
+
+    border: none;
+
+    width: 135px;
+}
+
+.liBtnFaleConosco:hover{
+    border: none;
 }
 
 header a{
@@ -105,8 +110,6 @@ header a{
     padding: 10px;
 
     border-radius: 4px;
-
-    display: none;
 }
 
 .btnFaleConosco:hover{
@@ -115,6 +118,10 @@ header a{
 
 header nav{
     width: 70%;
+}
+
+#especialidades{
+    width: 100%;
 }
 
 .especialidades{

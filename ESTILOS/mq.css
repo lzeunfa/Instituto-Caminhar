@@ -1,1 +1,57 @@
 @charset "UTF-8";
+
+@media screen and (min-width:1200px){
+
+    #ulMenu{
+
+        justify-content: center !important;
+    }
+
+    .liBtnFaleConosco{
+        display: block;
+
+        margin: 0px;
+    }
+
+    #containerHeader{
+        display: flex;
+
+        justify-content: center;
+    }
+
+    header li{
+        margin: 0px 20px;
+        padding: 0px;
+
+        width: auto;
+    }
+
+    #liEspecialidades{
+        width: 125px;
+
+        position: relative;
+    }
+
+    #especialidades{
+        position: absolute;
+
+        width: 250px;
+
+        top: 60%;
+        left: 34%;
+    }
+
+    #especialidades li{
+        width: 250px;
+
+        background-color: var(--corSec);
+    }
+
+    #especialidades li:hover{
+        background-color: #5e86b1;
+    }
+
+    #especialidades a{
+        color: white !important;
+    }
+}

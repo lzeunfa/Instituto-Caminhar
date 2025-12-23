@@ -30,19 +30,20 @@
 
     <header id="menu">
 
-        <nav id="navHeader" class="navbar navbar-expand-xl navbar-dark">
+        <nav id="navHeader" class="navbar navbar-expand-xl navbar-dark d-flex justify-content-center">
 
             <!--div para ajustar tamanho ocupado pelo conteudo-->
             <div id="containerHeader">
 
                 <!--div para centralização de conteúdo em tela pequena-->
-                <div class="d-flex align-items-center justify-content-between">
+                <div id="divLogoMenu" class="d-flex align-items-center justify-content-between">
+
                     <!--logo do instituto-->
                     <img class="me-2" src="IMGS/logo/Logo_Instituto_Caminhar_Negativo.png" alt="logo-instituto-caminhar" width="100px">
 
                     <!--btn de redimensionamento menu-->
                     <button id="iconMenu"  class="navbar-toggler bg-transparent border-0 color-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <!--icone-->
+                    <!--icone menu-->
                     <span class="navbar-toggler-icon bs-navbar-toggler-icon-bg"></span>
                     </button>
 
@@ -51,7 +52,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
 
                     <!--opcoes do menu-->
-                    <ul id="ulMenu" class="navbar-nav align-items-center">
+                    <ul id="ulMenu" class="navbar-nav align-items-center justify-content-between">
 
                         <li class="nav-item">
                         <a aria-current="page" href="#">Início</a>
@@ -61,6 +62,7 @@
                         <a  href="#">Sobre</a>
                         </li>
 
+                        <!--opcao de especialidades-->
                         <li id="liEspecialidades" class="nav-item">
                         <a id="opEspecialidades" href="#">Especialidades <i id="iconSeta" class="fa-solid fa-sort-up"></i></a>
                         </li>
@@ -97,7 +99,7 @@
 
                         <!--btn fale conosco-->
                         <li class="liBtnFaleConosco" class="nav-item">
-                        <a class="btnFaleConosco" class="nav-link ps-5" href="#">Fale conosco</a>
+                        <a class="btnFaleConosco" class="nav-link ps-5" href="https://api.whatsapp.com/send?phone=5561981185135&amp;text=Ol%C3%A1,%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20o%20Instituto%20Caminhar" target="_blank">Fale conosco</a>
                         </li>
 
                     </ul>
