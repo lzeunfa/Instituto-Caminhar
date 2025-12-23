@@ -33,6 +33,8 @@
 
     --fundoBrancoTransparente: rgba(255, 255, 255, 0.375);
 
+    --fundoIcone: #F8F7F3;
+
     /*cores pro degrade insta*/
     --roxo: #9433E9;
     --rosa: #D7277D;
@@ -48,6 +50,11 @@ header{
     justify-content: center;
 
     padding: 0px 10px 0px 10px;
+}
+
+#logoInstituto{
+    width: 80px;
+    height: 88px;
 }
 
 #navHeader{
@@ -159,6 +166,7 @@ header nav{
 
 /*inicio main*/
 
+/*area frase topo*/
 #fraseTopo{
     background-image: url(../IMGS/background/fundo_pontilhado.png);
     background-size: contain;
@@ -168,10 +176,10 @@ header nav{
     justify-content: center;
     align-items: center;
 
-    padding: 10px;
+    padding: 20px;
 }
 
-#fraseTopo h1, #fraseTopo h2{
+h1,h2{
     color: var(--corSec);
 
     text-align: center;
@@ -183,6 +191,8 @@ header nav{
     color: var(--letraDestaque);
 
     font-family: 'inter bold';
+
+    background-color: white;
 }
 
 .btnFaleConosco2{
@@ -203,5 +213,50 @@ header nav{
 .btnFaleConosco2:hover{
     background-color: var(--laranjaSec);
 }
+/*fim area frase topo*/
+
+/*area intro pro saiba mais*/
+
+#introProSaibaMais{
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+#introProSaibaMais h1{
+    text-align: start;
+}
+
+#containerProSaibaMais{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.iconeMaoCoracao{
+    min-width: 40px;
+    min-height: 40px;
+
+    margin-right: 10px;
+
+    background-color: var(--fundoIcone);
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2px;
+}
+
+#containerProSaibaMais p{
+    font-size: 0.9em;
+
+    font-family: 'inter bold';
+
+    color: var(--textoCinzaPrin);
+}
+
+/*fim area intro pro saiba mais*/
 
 /*fim main*/
