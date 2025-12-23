@@ -14,6 +14,9 @@
     <!--biblioteca para animações-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    <!--jQuery-->
+    <script src="JS/jquery-3.7.1.min.js"></script>
+
     <!--Bootstrap css-->
     <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
 
@@ -38,7 +41,7 @@
                     <img class="me-2" src="IMGS/logo/Logo_Instituto_Caminhar_Negativo.png" alt="logo-instituto-caminhar" width="100px">
 
                     <!--btn de redimensionamento menu-->
-                    <button  class="navbar-toggler bg-transparent border-0 color-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button id="iconMenu"  class="navbar-toggler bg-transparent border-0 color-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <!--icone-->
                     <span class="navbar-toggler-icon bs-navbar-toggler-icon-bg"></span>
                     </button>
@@ -58,9 +61,23 @@
                         <a  href="#">Sobre</a>
                         </li>
 
-                        <li class="nav-item">
-                        <a href="#">Especialidades</a>
+                        <li id="liEspecialidades" class="nav-item">
+                        <a id="opEspecialidades" href="#">Especialidades <i id="iconSeta" class="fa-solid fa-sort-up"></i></a>
                         </li>
+
+                        <div id="especialidades" class="disappear">
+                            <li class="nav-item especialidades"> <a href="#">Avaliação Neuropsicológica</a> </li>
+
+                            <li class="nav-item especialidades"> <a href="#"> Avaliação e acompanhamento pré e pós cirurgia bariátrica</a> </li>
+
+                            <li class="nav-item especialidades"> <a href="#">Acupuntura </a> </li>
+
+                            <li class="nav-item especialidades"> <a href="#">Psicologia</a> </li>
+
+                            <li class="nav-item especialidades"> <a href="#">Fonoaudiologia</a> </li>
+
+                            <li class="nav-item especialidades"> <a href="#">Nutrição</a> </li>
+                        </div>
 
                         <li class="nav-item">
                         <a href="#">Avaliações</a>
@@ -79,7 +96,7 @@
                         </li>
 
                         <!--btn fale conosco-->
-                        <li class="nav-item">
+                        <li class="liBtnFaleConosco" class="nav-item">
                         <a class="btnFaleConosco" class="nav-link ps-5" href="#">Fale conosco</a>
                         </li>
 
@@ -94,6 +111,8 @@
     </header>
     <!--fim header-->
 
+    <!--js do instituto-->
+    <script src="/JS/instituto.js"></script>
     
     <!--bootstrap js-->
     <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
