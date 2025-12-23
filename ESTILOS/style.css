@@ -259,4 +259,43 @@ h1,h2{
 
 /*fim area intro pro saiba mais*/
 
+/*inicio area convenios*/
+
+#areaConvenios{
+    margin: 20px 0px;
+    padding: 10px;
+
+    background-color: var(--fundoIcone);
+
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.534);
+
+}
+
+#containerConvenios{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.convenios{
+    border: 2px solid var(--corSec);
+    border-radius: 10px;
+
+    margin: 10px 20px;
+
+    width: 100px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imgConvenios{
+    width: 80px;
+}
+
+/*fim area convenios*/
+
 /*fim main*/
