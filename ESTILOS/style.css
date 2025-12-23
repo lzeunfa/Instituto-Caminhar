@@ -120,6 +120,10 @@ header nav{
     width: 70%;
 }
 
+#liEspecialidades{
+    cursor: pointer;
+}
+
 #especialidades{
     width: 100%;
 }
