@@ -160,7 +160,7 @@ header nav{
 /*inicio main*/
 
 #fraseTopo{
-    background-image: url(/IMGS/background/fundo_pontilhado.png);
+    background-image: url(IMGS/background/fundo_pontilhado.png);
     background-size: contain;
 
     display: flex;
