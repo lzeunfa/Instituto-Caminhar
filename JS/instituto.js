@@ -19,15 +19,11 @@ $(document).ready(()=>{
     });
 
     function especialidadesClicada(){
-        $('#iconSeta').removeClass('fa-solid fa-sort-up');
-        $('#iconSeta').addClass('fa-solid fa-sort-down');
 
         $('#especialidades').toggleClass('disappear');
     }
 
     function especialidadesDesclicada(){
-        $('#iconSeta').removeClass('fa-solid fa-sort-down');
-        $('#iconSeta').addClass('fa-solid fa-sort-up');
 
         $('#especialidades').toggleClass('disappear');
     }

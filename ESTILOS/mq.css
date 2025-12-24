@@ -54,4 +54,8 @@
     #especialidades a{
         color: white !important;
     }
+
+    #containerProSaibaMais p{
+    font-size: 1.1em;
+    }
 }

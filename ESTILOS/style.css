@@ -221,7 +221,12 @@ h1,h2{
 
 #introProSaibaMais{
     margin: 20px 0px;
-    padding: 10px;
+
+    padding: 30px 10px;
+}
+
+#containerGeralProSaibaMais{
+    max-width: 1000px;
 }
 
 #introProSaibaMais h1{
@@ -265,7 +270,7 @@ h1,h2{
 
 #areaConvenios{
     margin: 20px 0px;
-    padding: 10px;
+    padding: 20px 10px;
 
     background-color: var(--fundoIcone);
 
@@ -277,6 +282,8 @@ h1,h2{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+
+    max-width: 1000px;
 }
 
 .convenios{
