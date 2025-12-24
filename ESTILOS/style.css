@@ -358,4 +358,121 @@ h1,h2,h3{
 
 /*fim area especialidades home*/
 
+/*inicio quem faz acontecer*/
+
+
+
+/*fim que mfaz acontecer*/
+
+/*.carousel{
+    margin: 50px auto;
+
+    width: 90%;
+    height: 700px;
+
+    border: 5px solid red;
+
+    display: flex;
+
+    overflow-x: auto;
+}
+
+.carousel::-webkit-scrollbar{
+    display: none;
+}
+
+.group{
+    display: flex;
+
+    gap: 1em;
+
+    animation: spin 20s infinite linear;
+}
+
+.card{
+    flex: 0 0 5em;
+
+    height: 200px;
+    width: 100px;
+
+    padding: 1em;
+    margin-right: 300px;
+
+    border-radius: .2em;
+
+    align-content: center;
+
+    border: none;
+}
+
+.card img{
+    width: 300px;
+}
+
+@keyframes spin{
+    from {translate: 0;}
+    to{translate: -100%;}
+}*/
+
+/*slider profissionais*/
+#areaQuemFazAcontecer{
+    background-color: var(--corSec);
+}
+
+#areaQuemFazAcontecer h1{
+    color: white;
+
+    padding: 10px;
+}
+
+#containerSliderProfissionais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 300px;
+}
+
+.card-wrapper{
+    max-width: 1000px;
+
+    margin: 0 60px 35px;
+    padding: 20px 10px;
+
+    overflow-x: hidden;
+}
+
+.card-list{
+    padding: 0px;
+}
+
+.card-list .card-item{
+    list-style: none;
+}
+
+.card-list .card-item{
+    max-width: 300px;
+    display: block;
+
+    padding: 18px;
+
+}
+
+.card-list .card-image{
+    width: 100%;
+
+    border-radius: 10px;
+
+    object-fit: cover;
+}
+
+.card-wrapper .swiper-slide-button{
+    color: white;
+    margin-top: -35px;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: white;
+}
+
 /*fim main*/
