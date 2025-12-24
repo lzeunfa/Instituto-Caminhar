@@ -181,7 +181,7 @@ header nav{
     height: 30vh;
 }
 
-h1,h2{
+h1,h2,h3{
     color: var(--corSec);
 
     text-align: center;
@@ -323,5 +323,39 @@ h1,h2{
 }
 
 /*fim area atendimentos*/
+
+/*inicio area especialidades home*/
+
+#areaSobreEspecialidades h3{
+    padding-bottom: 30px;
+}
+
+#containerSobreEspecialidades{
+    max-width: 1000px;
+}
+
+.sobreEspecialidade{
+    padding: 10px;
+
+    margin-bottom: 10px;
+
+    width: 300px;
+}
+
+.sobreEspecialidade h2{
+    text-align: left;
+}
+
+.sobreEspecialidade p{
+    font-size: 0.9em;
+
+    font-family: 'inter bold';
+
+    color: var(--textoCinzaPrin);
+}
+
+
+
+/*fim area especialidades home*/
 
 /*fim main*/
