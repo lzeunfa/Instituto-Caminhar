@@ -309,7 +309,7 @@ h1,h2,h3{
 
 /*inicio area atendimentos*/
 
-#areaAtendimentos{
+#areaAtendimentos, #areaAgendar{
     background-image: url(../IMGS/background/fundo_pontilhado.png);
     background-size: contain;
 
@@ -415,6 +415,7 @@ h1,h2,h3{
 }*/
 
 /*slider profissionais*/
+
 #areaQuemFazAcontecer{
     background-color: var(--corSec);
 }
@@ -473,6 +474,12 @@ h1,h2,h3{
 
 .swiper-pagination-bullet-active{
     background-color: white;
+}
+
+/*fim slider profissionais*/
+
+#areaAgendar{
+
 }
 
 /*fim main*/
