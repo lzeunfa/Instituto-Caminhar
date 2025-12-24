@@ -269,7 +269,7 @@ h1,h2{
 /*inicio area convenios*/
 
 #areaConvenios{
-    margin: 20px 0px;
+    margin: 20px 0px 30px 0px;
     padding: 20px 10px;
 
     background-color: var(--fundoIcone);
@@ -306,5 +306,22 @@ h1,h2{
 }
 
 /*fim area convenios*/
+
+/*inicio area atendimentos*/
+
+#areaAtendimentos{
+    background-image: url(../IMGS/background/fundo_pontilhado.png);
+    background-size: contain;
+
+    padding: 50px 0px;
+
+    margin: 20px 0px 30px 0px;
+}
+
+.h1Espec{
+    color: var(--laranjaPrin);
+}
+
+/*fim area atendimentos*/
 
 /*fim main*/

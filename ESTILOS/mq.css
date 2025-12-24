@@ -44,15 +44,15 @@
     #especialidades li{
         width: 250px;
 
-        background-color: var(--corSec);
+        background-color: white;
     }
 
     #especialidades li:hover{
-        background-color: #5e86b1;
+        background-color: rgb(138, 138, 138);
     }
 
     #especialidades a{
-        color: white !important;
+        color: var(--corSec) !important;
     }
 
     #containerProSaibaMais p{

@@ -13,18 +13,16 @@ $(document).ready(()=>{
     $('#iconMenu').on('click', () =>{
 
         if($('#iconSeta').hasClass('fa-solid fa-sort-down')){
-            especialidadesDesclicada();
+            $('#especialidades').addClass('disappear');
         }
 
     });
 
     function especialidadesClicada(){
-
         $('#especialidades').toggleClass('disappear');
     }
 
     function especialidadesDesclicada(){
-
         $('#especialidades').toggleClass('disappear');
     }
 
