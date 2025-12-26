@@ -62,4 +62,9 @@
     .btnFaleConosco2{
         padding: 10px;
     }
+
+    iframe{
+        width: 500px;
+        height: 250px;
+    }
 }

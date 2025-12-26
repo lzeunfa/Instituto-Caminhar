@@ -19,6 +19,11 @@
     src: url(../FONTS/Inter/static/Inter_18pt-Bold.ttf);
 }
 
+@font-face {
+    font-family: 'inter xlight';
+    src: url(../FONTS/Inter/static/Inter_18pt-ExtraLight.ttf);
+}
+
 /*variavei*/
 :root{
     --corPrin: #255465;
@@ -55,8 +60,7 @@ header{
 }
 
 #logoInstituto{
-    width: 80px;
-    height: 88px;
+    width: 100px;
 }
 
 #navHeader{
@@ -510,5 +514,55 @@ h1,h2,h3{
 }
 
 /*fim area avaliacoes*/
+
+/*inicio area unidades*/
+
+#areaUnidades{
+    padding: 10px;
+
+    background-color: var(--fundoIcone);
+
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.534);
+}
+
+iframe{
+    width: 300px;
+    height: 200px;
+
+    margin-bottom: 30px;
+}
+
+.textoUnidades{
+    color: var(--laranjaPrin);
+}
+
+/*inicio area unidades*/
+
+/*inicio footer*/
+
+footer{
+    background-color: var(--corPrin);
+}
+
+#containerFooter{
+    width: 90%;
+    max-width: 1000px;
+}
+
+#direitosContainer{
+    width: 90%;
+}
+
+.direitos{
+    font-family: 'inter xlight';
+
+    text-align: center;
+}
+
+#linkDev{
+    color: white;
+}
+
+/*fim footer*/
 
 /*fim main*/
