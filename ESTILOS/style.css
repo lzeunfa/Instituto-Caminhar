@@ -35,6 +35,8 @@
 
     --fundoIcone: #F8F7F3;
 
+    --estrela: #FDB001;
+
     /*cores pro degrade insta*/
     --roxo: #9433E9;
     --rosa: #D7277D;
@@ -358,62 +360,6 @@ h1,h2,h3{
 
 /*fim area especialidades home*/
 
-/*inicio quem faz acontecer*/
-
-
-
-/*fim que mfaz acontecer*/
-
-/*.carousel{
-    margin: 50px auto;
-
-    width: 90%;
-    height: 700px;
-
-    border: 5px solid red;
-
-    display: flex;
-
-    overflow-x: auto;
-}
-
-.carousel::-webkit-scrollbar{
-    display: none;
-}
-
-.group{
-    display: flex;
-
-    gap: 1em;
-
-    animation: spin 20s infinite linear;
-}
-
-.card{
-    flex: 0 0 5em;
-
-    height: 200px;
-    width: 100px;
-
-    padding: 1em;
-    margin-right: 300px;
-
-    border-radius: .2em;
-
-    align-content: center;
-
-    border: none;
-}
-
-.card img{
-    width: 300px;
-}
-
-@keyframes spin{
-    from {translate: 0;}
-    to{translate: -100%;}
-}*/
-
 /*slider profissionais*/
 
 #areaQuemFazAcontecer{
@@ -478,8 +424,91 @@ h1,h2,h3{
 
 /*fim slider profissionais*/
 
-#areaAgendar{
+/*inicio area avaliacoes*/
 
+.carousel{
+    margin: 50px auto;
+    padding: 10px;
+
+    width: 90%;
+    max-width: 1000px;
+    height: auto;
+
+    display: flex;
+
+    overflow-x: auto;
 }
+
+.carousel::-webkit-scrollbar{
+    display: none;
+}
+
+.group{
+    display: flex;
+
+    animation: spin 25s infinite linear;
+}
+
+.card-avaliacoes{
+    width: 280px;
+    height: auto;
+
+    margin-right: 100px;
+    padding: 10px;
+
+    border-radius: 10px;
+
+    align-content: center;
+
+    border: none;
+
+    background-color: var(--fundoBrancoTransparente);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.563);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.circulo-letra-avaliacao{
+    border-radius: 50%;
+
+    width: 50px;
+    height: 50px;
+
+    background-color: var(--corPrin);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 10px;
+}
+
+.letra-nome{
+    color: white;
+
+    font-size: 1.2em;
+}
+
+.estrelas-avaliacao{
+    color: var(--estrela);
+}
+
+.texto-avaliacao{
+    padding-bottom: 10px;
+
+    border-bottom: 2px solid rgba(128, 128, 128, 0.463);
+}
+
+.nome-avaliador{
+    color: var(--textoCinzaPrin);
+}
+
+@keyframes spin{
+    from {translate: 0;}
+    to{translate: -100%;}
+}
+
+/*fim area avaliacoes*/
 
 /*fim main*/
