@@ -426,6 +426,60 @@ h1,h2,h3{
     background-color: white;
 }
 
+
+/*modais de ampliacao de img*/
+.modalImg {
+    /* Esconde o modal por padrão */
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.9);
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.modalImg:target {
+    /* Mostra o modal quando o link de âncora é clicado */
+    display: flex;
+}
+
+.modalImg img{ 
+    /* Estilo para a imagem ampliada dentro do modal */
+    max-width: 90%;
+    max-height: 90vh;
+    margin-top: 20px;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 10px 50px rgba(0,0,0,0.5);
+}
+
+
+.fechar {
+    /* Botão de fechar (o 'x') */
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10000;
+    line-height: 1;
+    padding: 10px 15px;
+}
+
+.fechar:hover {
+    color: #ff4444;
+    transform: rotate(90deg);
+}
+
 /*fim slider profissionais*/
 
 /*inicio area avaliacoes*/
