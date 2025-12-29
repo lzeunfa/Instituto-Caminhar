@@ -55,7 +55,7 @@
         color: var(--corSec) !important;
     }
 
-    #containerProSaibaMais p, #textoSobre p, .ideais p{
+    #containerProSaibaMais p, #textoSobre p, .ideais p, .sobreEspecialidade p{
         font-size: 1.1em;
     }
 

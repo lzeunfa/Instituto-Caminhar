@@ -262,7 +262,7 @@ h1,h2,h3{
     padding: 2px;
 }
 
-#containerProSaibaMais p, #textoSobre p, .ideais p{
+#containerProSaibaMais p, #textoSobre p, .ideais p, .sobreEspecialidade p{
     font-size: 0.9em;
 
     font-family: 'inter bold';
@@ -351,16 +351,6 @@ h1,h2,h3{
 .sobreEspecialidade h2{
     text-align: left;
 }
-
-.sobreEspecialidade p{
-    font-size: 0.9em;
-
-    font-family: 'inter bold';
-
-    color: var(--textoCinzaPrin);
-}
-
-
 
 /*fim area especialidades home*/
 

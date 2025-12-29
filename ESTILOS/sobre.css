@@ -154,3 +154,29 @@
 }
 
 /*fim area resumo especialidades*/
+
+/*inicio area divisoria fale conosco*/
+
+.divisoriaFaleConosco{
+    background-image: url(../IMGS/background/img_bckgFaleConosco2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 350px;
+}
+
+.containerTextoFaleConosco{
+    background-image: linear-gradient(to right, transparent, var(--corPrin) 70%);
+
+    width: 100%;
+    height: 100%;
+}
+
+.containerTextoFaleConosco h3, .containerTextoFaleConosco h1{
+    color: white;
+
+    padding: 10px;
+}
+
+/*fim area divisoria fale conosco*/
