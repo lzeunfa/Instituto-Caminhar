@@ -262,7 +262,7 @@ h1,h2,h3{
     padding: 2px;
 }
 
-#containerProSaibaMais p{
+#containerProSaibaMais p, #textoSobre p{
     font-size: 0.9em;
 
     font-family: 'inter bold';

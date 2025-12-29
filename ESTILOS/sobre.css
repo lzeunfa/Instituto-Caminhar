@@ -1,0 +1,26 @@
+@charset "uTf-8";
+
+
+/*inicio area da introducao do sobre*/
+#containerGeralIntro{
+    max-width: 1000px;
+}
+
+#container1{
+    max-width: 600px;
+}
+
+#imgFundadoras{
+    max-width: 350px;
+
+    width: 80%;
+}
+
+.imgFundadorasProfi{
+    width: 80%;
+    max-width: 250px;
+
+    border-radius: 10px;
+}
+
+/*fim area da introducao do sobre*/
