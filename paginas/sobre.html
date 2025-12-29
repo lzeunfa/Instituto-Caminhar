@@ -126,13 +126,13 @@
         <!--area introducao sobre-->
         <section id="introSobreInstituto" class="d-flex justify-content-center mt-4">
 
-            <div id="containerGeralIntro" class="d-flex justify-content-center align-items-center flex-wrap">
+            <div id="containerGeralIntro" class="d-flex justify-content-center align-items-center flex-wrap mb-5">
 
                 <!--container 1-->
                 <div id="container1" class="d-flex flex-column align-items-center p-2">
-                    <h1 class="align-self-start">O instituto Caminhar...</h1>
+                    <h1 data-aos="fade-right" data-aos-duration="800" class="align-self-start">O instituto Caminhar...</h1>
 
-                    <div id="textoSobre" class="d-flex align-items-start p-2">
+                    <div data-aos="fade-right" data-aos-duration="800" id="textoSobre" class="d-flex align-items-start p-2">
 
                         <div class="iconeMaoCoracao">
                             <img src="../IMGS/icones/icone_maoCoracao.png" alt="icone-mao-coracao" width="28px">
@@ -143,14 +143,36 @@
 
                     </div>
 
-                    <div id="fundadoras" class="p-2">
+                    <!--elivia-->
+                    <div id="ampliarElivia" class="modalImg">
+                        <a href="#fechar" class="fechar">&times;</a>
+                        <img src="../IMGS/profissionais/profi_Elivia.jpg" alt="Imagem-ampliada-elivia">
+                    </div>
 
-                        <h2 class="text-start">Fundadoras:</h2>
+                    <!--fernanda-->
+                    <div id="ampliarFernanda" class="modalImg">
+                        <a href="#fechar" class="fechar">&times;</a>
+                        <img src="../IMGS/profissionais/profi_Fernanda.jpg" alt="Imagem-ampliada-fernanda">
+                    </div>
 
-                        <div id="containerImgsFundadorasProfi" class="d-flex flex-wrap justify-content-center">
-                            <img class="imgFundadorasProfi" src="../IMGS/profissionais/profi_Fernanda.jpg" alt="fundadora-fernanda">
-                            <img class="imgFundadorasProfi" src="../IMGS/profissionais/profi_Elivia.jpg" alt="fundadora-fernanda">
+                    <div id="fundadoras" class="p-2 d-flex flex-column">
+
+                        <h2 class="align-self-start">Fundadoras:</h2>
+
+                        <!--container pras imgs das fundadoras-->
+                        <div id="containerImgsFundadorasProfi" class="d-flex flex-wrap justify-content-center mb-5">
+
+                            <a href="#ampliarFernanda">
+                                <img class="imgFundadorasProfi" src="../IMGS/profissionais/profi_Fernanda.jpg" alt="fundadora-fernanda">
+                            </a>
+
+                            <a href="#ampliarElivia">
+                                <img class="imgFundadorasProfi" src="../IMGS/profissionais/profi_Elivia.jpg" alt="fundadora-elivia">
+                            </a>
+
                         </div>
+
+                        <a class="btnFaleConosco2 p-2 btnFaleConoscoSobre" href="https://api.whatsapp.com/send?phone=5561981185135&amp;text=Ol%C3%A1,%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20o%20Instituto%20Caminhar"><i class="fa-brands fa-whatsapp"></i>Fale conosco</a>
                         
                     </div>
 
@@ -159,8 +181,12 @@
                 <!--container 2-->
                 <div id="container 2">
 
-                    <div id="containerImg">
-                        <img id="imgFundadoras" src="/IMGS/background/imgFundadoras.jpg" alt="">
+                    <div id="containerImgJuntas" class="d-flex">
+
+                        <img id="imgFundadoras" src="../IMGS/background/imgFundadoras.jpg" alt="img-fundadoras-juntas">
+
+                        <img class="align-self-start" id="imgPontilhada" src="../IMGS/background/fundo_pontilhado.png" alt="img-pontilhada">
+
                     </div>
 
                 </div>
