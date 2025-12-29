@@ -15,4 +15,51 @@ $(document).ready(()=>{
 
     });
 
+
+    //interacao apra pausar animacao slider avaliacoes
+    const $carousel = $('.carousel');
+    const $groups = $('.group');
+    
+    if ($carousel.length && $groups.length) {
+        let isPaused = false;
+        let isDragging = false;
+        
+        // Função para pausar
+        function pauseAnimation() {
+            $groups.css('animation-play-state', 'paused');
+            isPaused = true;
+        }
+        
+        // Função para retomar
+        function resumeAnimation() {
+            if (!isDragging) {
+                $groups.css('animation-play-state', 'running');
+                isPaused = false;
+            }
+        }
+        
+        // Mobile touch
+        $carousel.on('touchstart', function() {
+            pauseAnimation();
+            isDragging = true;
+        });
+        
+        $carousel.on('touchend', function() {
+            isDragging = false;
+            setTimeout(resumeAnimation, 0);
+        });
+        
+        // Desktop drag
+        $carousel.on('mousedown', function() {
+            pauseAnimation();
+            isDragging = true;
+        });
+        
+        $carousel.on('mouseup', function() {
+            isDragging = false;
+            setTimeout(resumeAnimation, 0);
+        });
+        
+    };
+
 });
