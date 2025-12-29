@@ -67,4 +67,34 @@
         width: 500px;
         height: 250px;
     }
+
+    .modalImg img{ 
+        /* Estilo para a imagem ampliada dentro do modal */
+        max-width: 90%;
+        max-height: 90vh;
+    }
+
+
+    .fechar {
+        /* Botão de fechar (o 'x') */
+        position: absolute;
+        top: 20px;
+        right: 35px;
+
+        color: #f1f1f1;
+
+        font-size: 50px;
+        font-weight: bold;
+        text-decoration: none;
+
+        cursor: pointer;
+
+        transition: all 0.3s ease;
+
+        z-index: 10000;
+
+        line-height: 1;
+
+        padding: 10px 15px;
+    }
 }

@@ -453,8 +453,8 @@ h1,h2,h3{
 
 .modalImg img{ 
     /* Estilo para a imagem ampliada dentro do modal */
-    max-width: 90%;
-    max-height: 90vh;
+    max-width: 80%;
+    max-height: 80vh;
 
     margin-top: 20px;
 
@@ -474,7 +474,7 @@ h1,h2,h3{
 
     color: #f1f1f1;
 
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     text-decoration: none;
 
@@ -491,7 +491,7 @@ h1,h2,h3{
 
 .fechar:hover {
     color: #ff4444;
-    
+
     transform: rotate(90deg);
 }
 
