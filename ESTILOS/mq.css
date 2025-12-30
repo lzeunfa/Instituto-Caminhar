@@ -55,7 +55,7 @@
         color: var(--corSec) !important;
     }
 
-    #containerProSaibaMais p, #textoSobre p, .ideais p, .sobreEspecialidade p{
+    #containerProSaibaMais p, #textoSobre p, .ideais p, .sobreEspecialidade p, #sobreAvNeuroPsico p{
         font-size: 1.1em;
     }
 

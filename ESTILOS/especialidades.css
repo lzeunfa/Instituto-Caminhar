@@ -2,6 +2,10 @@
 
 /*inicio av neuro psico*/
 
+#containerGeralSobreEspecialidade{
+    max-width: 1000px;
+}
+
 #topoEspecialidadeAvNeuro{
     width: 100%;
 }
@@ -34,3 +38,52 @@
 }
 
 /*inicio av neuro psico*/
+
+/*inicio sobre a especialidade*/
+
+.textoEspecAzul{
+    color: var(--corSec);
+
+    font-size: 0.9em;
+
+    font-family: 'inter bold';
+}
+
+#containerTranstornos{
+    width: 100%;
+}
+
+.transtorno{
+    background-color: var(--corSec);
+
+    width: 90%;
+    max-width: 350px;
+
+    height: 90px;
+
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 10px;
+
+    padding: 10px;
+}
+
+.transtorno p{
+    color: white !important;
+    text-align: center;
+
+    margin: 0px;
+}
+
+.transtorno h3{
+    color: white;
+
+    margin: 0px;
+
+    font-size: 1.2em;
+}
