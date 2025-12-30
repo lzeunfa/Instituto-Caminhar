@@ -90,4 +90,33 @@
     font-size: 1.1em;
 }
 
+#oqAvaliado{
+    background-color: var(--corSec);
+}
+
+#oqAvaliado h2{
+    color: white;
+
+    margin: 0;
+}
+
+#containerCardsAvaliados{
+    max-width: 1000px;
+}
+
+.avaliados{
+    background-color: white;
+
+    width: 90%;
+    max-width: 330px;
+
+    border-radius: 10px;
+
+    margin: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*fim sobre a especialidade*/
