@@ -101,4 +101,9 @@
     .btnFaleConoscoSobre{
     align-self: start;
     }
+
+    #imgAvNeuroBCKG{
+    height: 40vh !important;
+
+    }
 }

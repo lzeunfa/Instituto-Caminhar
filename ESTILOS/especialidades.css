@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*inicio av neuro psico*/
+
+#topoEspecialidadeAvNeuro{
+    width: 100%;
+}
+
+#imgAvNeuroBCKG{
+    width: 100%;
+    height: 30vh;
+
+    background-image: url(../IMGS/especialidades/fundo_avNeuropsicologica.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.degrade{
+    width: 100%;
+    height: 100%;
+
+    background-image: linear-gradient(to top,  var(--corSec) , transparent);
+}
+
+/*inicio av neuro psico*/
