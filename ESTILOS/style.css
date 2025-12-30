@@ -509,7 +509,7 @@ h1,h2,h3{
 .group{
     display: flex;
 
-    animation: spin 30s infinite linear;
+    animation: spin 50s infinite linear;
 }
 
 .card-avaliacoes{
