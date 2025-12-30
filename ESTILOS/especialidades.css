@@ -23,4 +23,14 @@
     background-image: linear-gradient(to top,  var(--corSec) , transparent);
 }
 
+#nomeEspecialidade{
+    background-color: var(--corSec);
+
+    height: 30vh;
+}
+
+#nomeEspecialidade h1{
+    color: white;
+}
+
 /*inicio av neuro psico*/
