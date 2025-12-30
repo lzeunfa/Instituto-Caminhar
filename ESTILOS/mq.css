@@ -44,7 +44,7 @@
     #especialidades li{
         width: 250px;
 
-        background-color: white;
+        background-color: rgb(215, 215, 215);
     }
 
     #especialidades li:hover{
