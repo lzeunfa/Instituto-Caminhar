@@ -55,8 +55,13 @@
         color: var(--corSec) !important;
     }
 
-    #containerProSaibaMais p, #textoSobre p, .ideais p, .sobreEspecialidade p, #sobreAvNeuroPsico p{
-        font-size: 1.1em;
+    #containerProSaibaMais p, #textoSobre p, .ideais p, .sobreEspecialidade p, #containerGeralSobreEspecialidade p, .textoEspecAzul{
+        font-size: 1.2em;
+    }
+
+    .transtorno p{
+
+    font-size: 1em !important;
     }
 
     .btnFaleConosco2{
