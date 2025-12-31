@@ -221,6 +221,51 @@ h1,h2,h3{
 }
 /*fim area frase topo*/
 
+/*inicio area instituto em numeros*/
+
+#areaInstitutoNumeros{
+    background-color: #204771;
+}
+
+#containerEstatisticas{
+    max-width: 1000px;
+}
+
+.estatisticas{
+    background-color: white;
+
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.534);
+
+    width: 250px;
+    height: 200px;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 10px;
+
+}
+
+.iconEstatistica{
+    background-image: linear-gradient(to bottom, var(--corSec) 5%, var(--corPrin));
+
+    width: 80px;
+    height: 80px;
+
+    border-radius: 50%;
+
+    box-shadow: 1px 1px 8px #25546570;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*inicio area instituto em numeros*/
+
 /*area intro pro saiba mais*/
 
 #introProSaibaMais{
@@ -260,7 +305,7 @@ h1,h2,h3{
     padding: 2px;
 }
 
-#containerProSaibaMais p, #textoSobre p, .ideais p, .sobreEspecialidade p, #containerGeralSobreEspecialidade p, .textoEspecAzul, .cardEspecialidadeInfo p{
+.textoEspecAzul, .textoCinza{
     font-size: 0.9em;
 
     font-family: 'inter bold';

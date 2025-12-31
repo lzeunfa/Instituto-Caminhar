@@ -15,6 +15,18 @@ $(document).ready(()=>{
 
     });
 
+    //funcao para crescente do numero de tempo de experiencia
+    function contagemTempo(num = 1) {
+        $('#contagemTempo').text(num);
+
+        if (num >= 15) return;
+
+        setTimeout(() => {
+            contagemTempo(num + 1);
+        }, 100);
+    }
+    contagemTempo();
+
 
     //interacao apra pausar animacao slider avaliacoes
     const $carousel = $('.carousel');

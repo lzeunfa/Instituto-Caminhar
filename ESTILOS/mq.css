@@ -55,7 +55,7 @@
         color: var(--corSec) !important;
     }
 
-    #containerProSaibaMais p, #textoSobre p, .ideais p, .sobreEspecialidade p, #containerGeralSobreEspecialidade p, .textoEspecAzul, .cardEspecialidadeInfo p{
+    .textoEspecAzul,.textoCinza{
         font-size: 1.2em;
     }
 
