@@ -237,7 +237,7 @@ h1,h2,h3{
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.534);
 
     width: 250px;
-    height: 200px;
+    height: 220px;
 
     border-radius: 10px;
 
@@ -245,7 +245,10 @@ h1,h2,h3{
     flex-direction: column;
     align-items: center;
 
-    padding: 10px;
+    padding: 5px;
+
+
+    margin: 10px;
 
 }
 
@@ -262,6 +265,10 @@ h1,h2,h3{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.estatisticas p{
+    font-size: 1.1em;
 }
 
 /*inicio area instituto em numeros*/

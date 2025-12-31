@@ -55,6 +55,10 @@
         color: var(--corSec) !important;
     }
 
+    .estatisticas p{
+    font-size: 1.2em;
+}
+
     .textoEspecAzul,.textoCinza{
         font-size: 1.2em;
     }

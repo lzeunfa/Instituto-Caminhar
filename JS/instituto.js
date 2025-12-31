@@ -27,6 +27,18 @@ $(document).ready(()=>{
     }
     contagemTempo();
 
+    //funcao para crescente do numero de pacientes
+    function contagemPacientes(num = 1) {
+        $('#contagemPacientes').text(num);
+
+        if (num >= 1600) return;
+
+        setTimeout(() => {
+            contagemPacientes(num + 1);
+        }, 5);
+    }
+    contagemPacientes();
+
 
     //interacao apra pausar animacao slider avaliacoes
     const $carousel = $('.carousel');
