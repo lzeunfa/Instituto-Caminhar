@@ -39,7 +39,7 @@
 
 /*inicio av neuro psico*/
 
-/*inicio sobre a especialidade*/
+/*inicio sobre a especialidade av neuro psico*/
 
 .textoEspecAzul{
     color: var(--corSec);
@@ -117,6 +117,40 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.455);
 }
 
-/*fim sobre a especialidade*/
+.avaliados h3{
+    margin: 0px;
+}
+
+#containerCardsEspecialidades{
+    max-width: 1000px;
+}
+
+.cardEspecialidadeInfo{
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.455);
+
+    border-radius: 10px;
+
+    margin: 18px 15px;
+
+    width: 90%;
+
+}
+
+.cardEspecialidadeInfo h2{
+    padding-top: 10px;
+}
+
+/*fim sobre a especialidade av neuro psico*/
