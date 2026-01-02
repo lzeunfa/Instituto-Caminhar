@@ -23,7 +23,7 @@ $(document).ready(()=>{
 
         setTimeout(() => {
             contagemTempo(num + 1);
-        }, 100);
+        }, 200);
     }
     contagemTempo();
 
