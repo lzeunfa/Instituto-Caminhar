@@ -182,3 +182,17 @@
 }
 
 /*inicio sobre a especialidade acupuntura*/
+
+/*inicio sobre a especialidade acupuntura*/
+
+#imgPsicologiaBCKG{
+    width: 100%;
+    height: 30vh;
+
+    background-image: url(../IMGS/especialidades/fundo_psicologia.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/*inicio sobre a especialidade acupuntura*/
