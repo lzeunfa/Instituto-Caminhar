@@ -35,7 +35,7 @@ $(document).ready(()=>{
 
         setTimeout(() => {
             contagemPacientes(num + 1);
-        }, 5);
+        }, 1);
     }
     contagemPacientes();
 

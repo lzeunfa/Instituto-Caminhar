@@ -154,3 +154,17 @@
 }
 
 /*fim sobre a especialidade av neuro psico*/
+
+/*Inicio sobre a especialdiade av bariatrica*/
+
+#imgAvBariatricaBCKG{
+    width: 100%;
+    height: 30vh;
+
+    background-image: url(../IMGS/especialidades/fundo_avCcompPrePosBariatrica.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+/*Inicio sobre a especialdiade av bariatrica*/
