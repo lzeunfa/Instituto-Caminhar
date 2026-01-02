@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Caminhar</title>
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/f5a01752e4.js" crossorigin="anonymous"></script>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="../favicon.png" type="image/x-icon">
+
+    <!--link swiper css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+
+    <!--biblioteca para animações-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--jQuery-->
+    <script src="../JS/jquery-3.7.1.min.js"></script>
+
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="../bootstrap-5.3.8-dist/css/bootstrap.min.css">
+
+    <!--css geral-->
+    <link rel="stylesheet" href="../ESTILOS/style.css">
+
+    <!--css media querie-->
+    <link rel="stylesheet" href="../ESTILOS/mq.css">   
+
+    <!--css paginas especialidades-->
+    <link rel="stylesheet" href="../ESTILOS/especialidades.css">
+
+    <!--css sobre-->
+    <link rel="stylesheet" href="../ESTILOS/sobre.css">
+</head>
+<body>
+
+<header id="menu">
+
+        <nav id="navHeader" class="navbar navbar-expand-xl navbar-dark d-flex justify-content-center">
+
+            <!--div para ajustar tamanho ocupado pelo conteudo-->
+            <div id="containerHeader">
+
+                <!--div para centralização de conteúdo em tela pequena-->
+                <div id="divLogoMenu" class="d-flex align-items-center justify-content-between">
+
+                    <!--logo do instituto-->
+                    <img id="logoInstituto" class="me-2" src="../IMGS/logo/logo-2.png">
+
+                    <!--btn de redimensionamento menu-->
+                    <button id="iconMenu"  class="navbar-toggler bg-transparent border-0 color-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!--icone menu-->
+                    <span class="navbar-toggler-icon bs-navbar-toggler-icon-bg"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <!--opcoes do menu-->
+                    <ul id="ulMenu" class="navbar-nav align-items-center justify-content-between">
+
+                        <li class="nav-item">
+                        <a aria-current="page" href="../index.html">Início</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                        <a  href="sobre.html">Sobre</a>
+                        </li>
+
+                        <!--opcao de especialidades-->
+                        <li id="liEspecialidades" class="nav-item">
+                        <a id="opEspecialidades">Especialidades <i id="iconSeta" class="fa-solid fa-sort-down"></i></a>
+                        </li>
+
+                        <div id="especialidades" class="disappear">
+
+                            <li class="nav-item especialidades"> <a href="avNeuroPsico.html">Avaliação Neuropsicológica</a> </li>
+
+                            <li class="nav-item especialidades"> <a href="avBariatrica.html"> Avaliação e acompanhamento pré e pós cirurgia bariátrica</a> </li>
+
+                            <li class="nav-item especialidades"> <a href="acupuntura.html">Acupuntura </a> </li>
+
+                            <li class="nav-item especialidades"> <a href="psicologia.html">Psicologia</a> </li>
+
+                            <li class="nav-item especialidades"> <a href="fonoaudiologia.html">Fonoaudiologia</a> </li>
+
+                            <li class="nav-item especialidades"> <a href="nutricao.html">Nutrição</a> </li>
+
+                        </div>
+
+                        <li class="nav-item">
+                        <a href="../index.html#avaliacoes">Avaliações</a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a href="../index.html#areaUnidades">Unidades</a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a href="bastidores.html">Bastidores</a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a href="publicacoes.html">Publicações</a>
+                        </li>
+
+                        <!--btn fale conosco-->
+                        <li class="liBtnFaleConosco ms-5" class="nav-item">
+                        <a class="btnFaleConosco" class="nav-link ps-5" href="https://api.whatsapp.com/send?phone=5561981185135&amp;text=Ol%C3%A1,%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20o%20Instituto%20Caminhar" target="_blank">Fale conosco</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+    <!--fim header-->
+
+    <main>
+
+        <!--area topo-->
+        <section id="topoEspecialidadeAvNeuro">
+
+            <!--img do topo-->
+            <div id="imgFonoaudiologiaBCKG">
+
+                <div class="degrade"></div>
+
+            </div>
+
+            <div id="nomeEspecialidade" class="d-flex flex-column justify-content-center align-items-center">
+
+                <h1 data-aos="zoom-in" data-aos-duration="800">Fonoaudiologia</h1>
+
+                <!--btn fale conosco-->
+                <a data-aos="zoom-in" data-aos-duration="800" class="btnFaleConosco2 p-2 mt-3" href="https://api.whatsapp.com/send?phone=5561981185135&amp;text=Ol%C3%A1,%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20o%20Instituto%20Caminhar" target="_blank">Agendar consulta</a>
+
+            </div>
+
+        </section>
+
+        <!--area sobre a avaliação neuropsicologica-->
+        <section id="sobreAvNeuroPsico" class="d-flex justify-content-center flex-column align-items-center">
+
+            <div id="containerGeralSobreEspecialidade" class="d-flex flex-column justify-content-center align-items-center p-2">
+
+                <h2 data-aos="fade-down" data-aos-duration="800">Fonoaudiologia</h2>
+                <p data-aos="fade-down" data-aos-duration="800" class="text-center textoCinza">Especialidade de domínio de profissionais <span class="textoEspecAzul">graduados em FONOAUDIOLOGI</span>A com foco na comunicação que abrange voz, fala, linguagem oral e escrita, audição, fluência e funções estomatognáticas (deglutição, mastigação, respiração e fala).
+                <br>
+                O atendimento ocorre por meios de sessões que podem ser <span class="textoEspecAzul">presenciais ou on-line</span> dependendo do diagnóstico e idade do paciente para diferentes faixas de idade.
+                </p>
+
+                
+
+                <!--btn fale conosco-->
+                <a class="btnFaleConosco2 p-2 mt-3" href="https://api.whatsapp.com/send?phone=5561981185135&amp;text=Ol%C3%A1,%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20o%20Instituto%20Caminhar" target="_blank">Agendar consulta</a>
+
+
+            </div>
+
+            <!--fita que divide as secoes-->
+            <div id="divisorFita" class="mb-5 mt-5">
+
+                <svg id="svg1" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                    <path class="elementor-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
+                    c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
+                    c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z" fill="#255465"></path>
+                </svg>
+
+                <svg id="svg2" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                    <path class="elementor-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
+                    c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
+                    c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z" fill="#255465"></path>
+                </svg>
+
+            </div>
+
+            <div id="containerCardsEspecialidades" class="d-flex flex-column justify-content-center align-items-center">
+
+                <div data-aos="fade-right" data-aos-duration="800" class="cardEspecialidadeInfo">
+
+                    <div class="iconeMaoCoracao align-self-start">
+                            <img src="../IMGS/icones/icone_maoCoracao.png" alt="icone-mao-coracao" width="28px">
+                    </div>
+
+                    <h2 class="align-self-start">Quando procurar?</h2>
+                    <p class="textoCinza"><span class="textoEspecAzul">•</span> Crianças acima de dois anos que apresentam linguagem própria ou que falem palavras sem significados; <br>
+                    <span class="textoEspecAzul">•</span> Crianças em idade escolar que apresentem trocas, omissões e substituição de fonemas e de grafemas. Ex: gato e dato. <br>
+                    <span class="textoEspecAzul">•</span> Crianças e adolescentes com Transtorno do Déficit de Atenção (OPAC), Dislexia, Flatúrbio de Leitura e Escrita; <br>
+                    <span class="textoEspecAzul">•</span> Crianças ou adolescentes disfluentes (gagueira); <br>
+                    <span class="textoEspecAzul">•</span> Crianças, adolescentes e adultos com problemas de voz; <br>
+                    <span class="textoEspecAzul">•</span> Acompanhamento de tratamento ortodôntico ou cirurgia ortognática; <br>
+                    <span class="textoEspecAzul">•</span> Respiração oral; <br>
+                    <span class="textoEspecAzul">•</span> Dificuldades de aprendizagem</p>
+
+                </div>
+
+                <div data-aos="fade-right" data-aos-duration="800" class="cardEspecialidadeInfo">
+
+                    <div class="iconeMaoCoracao align-self-start">
+                            <img src="../IMGS/icones/icone_maoCoracao.png" alt="icone-mao-coracao" width="28px">
+                    </div>
+
+                    <h2 class="align-self-start">Como ocorrem?</h2>
+                    <p class="textoCinza">Os atendimentos são realizados com horário marcado previamiamente, o Fonoaudiólogo utiliza condutas específicas para cada paciente de acordo com os objetivos da fonoterapia a fim de aprimorar, habilitar, reabilitar e estimular a melhoria na qualidade de vida do paciente.</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--area divisora com fale conosco-->
+        <section class="divisoriaFaleConosco mb-5 d-flex justify-content-center align-items-center">
+
+            <div  class="containerTextoFaleConosco d-flex flex-column align-items-center justify-content-center">
+
+                <h3>Venha conhecer nosso Instituto!</h3>
+                <h1>Agende seu horário!</h1>
+
+                <a class="btnFaleConosco2 p-2" href="https://api.whatsapp.com/send?phone=5561981185135&amp;text=Ol%C3%A1,%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20o%20Instituto%20Caminhar" target="_blank"><i class="fa-brands fa-whatsapp"></i>Fale conosco</a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!--rodapé-->
+    <footer class="d-flex justify-content-center">
+
+        <div id="containerFooter" class="d-flex flex-column align-items-center">
+
+            <img src="../IMGS/logo/logo-2.png" alt="logo-instituto-caminhar" width="100px">
+            <h3 class="text-white">Contatos</h3>
+            <p class="text-white mb-0"><i class="fa-solid fa-phone text-white pe-3"></i>(61) 3042-1750</p>
+            <p class="text-white mb-0"><i class="fa-solid fa-phone text-white pe-3"></i>(61) 98118-5135</p>
+            <p class="text-white text-center pt-2 m-0">Se você valoriza cuidado no atendimento ao cliente trabalhe com a gente!</p>
+            <p class="text-white text-center">Envie seu currículo para:</p>
+            <p class="text-white"><i class="fa-regular fa-envelope"></i>contato@institutocaminhar.com.br</p>
+
+            <div id="direitosContainer">
+                <p class="text-white direitos"><i class="fa-regular fa-copyright text-white"></i>2025 todos os direitos reservados - Instituto Caminhar</p>
+
+                <p class="text-white direitos">Desenvolvido por: <a id="linkDev" href="https://lzeunfa.github.io/Portfolio/sobre.html" target="_blank">Dev Eliseu</a></p>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!--swiper js sscript-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="../JS/swiper.js"></script>
+
+    <!--js do instituto-->
+    <script src="../JS/instituto.js"></script>
+    
+    <!--bootstrap js-->
+    <script src="../bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--script para o funcinamento da biblioteca de animações-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
