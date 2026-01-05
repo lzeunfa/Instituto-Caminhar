@@ -1,0 +1,7 @@
+Troca ded conteudos das paginas por jquery
+
+onclick nos links com cada link passando um parametro da pagina respectiva
+vai ter um switch com o default sendo o index.html
+o html da tag main será trocado nos cliques
+tenho que remover a area de header e area de footer de todas paginas menos da index
+pois só será mudado o conteúdo da tag main
