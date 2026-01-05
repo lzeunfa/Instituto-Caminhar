@@ -55,9 +55,9 @@
         color: var(--corSec) !important;
     }
 
-    .estatisticas p{
+    .estatisticas p, #areaTopoBastidores p{
     font-size: 1.2em;
-}
+    }
 
     .textoEspecAzul,.textoCinza{
         font-size: 1.2em;
