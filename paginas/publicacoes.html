@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Caminhar</title>
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/f5a01752e4.js" crossorigin="anonymous"></script>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="../favicon.png" type="image/x-icon">
+
+    <!--link swiper css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+
+    <!--biblioteca para animações-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--jQuery-->
+    <script src="../JS/jquery-3.7.1.min.js"></script>
+
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="../bootstrap-5.3.8-dist/css/bootstrap.min.css">
+
+    <!--css geral-->
+    <link rel="stylesheet" href="../ESTILOS/style.css">
+
+    <!--css media querie-->
+    <link rel="stylesheet" href="../ESTILOS/mq.css">   
+
+    <!--css paginas especialidades-->
+    <link rel="stylesheet" href="../ESTILOS/especialidades.css">
+
+    <!--css sobre-->
+    <link rel="stylesheet" href="../ESTILOS/sobre.css">
+
+    <!--css bastidores-->
+    <link rel="stylesheet" href="../ESTILOS/bastidores.css">
+
+    <!--css publicacoes-->
+    <link rel="stylesheet" href="../ESTILOS/publicacoes.css">
+</head>
+<body>
+
+<header id="menu">
+
+        <nav id="navHeader" class="navbar navbar-expand-xl navbar-dark d-flex justify-content-center">
+
+            <!--div para ajustar tamanho ocupado pelo conteudo-->
+            <div id="containerHeader">
+
+                <!--div para centralização de conteúdo em tela pequena-->
+                <div id="divLogoMenu" class="d-flex align-items-center justify-content-between">
+
+                    <!--logo do instituto-->
+                    <img id="logoInstituto" class="me-2" src="../IMGS/logo/logo-2.png">
+
+                    <!--btn de redimensionamento menu-->
+                    <button id="iconMenu"  class="navbar-toggler bg-transparent border-0 color-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!--icone menu-->
+                    <span class="navbar-toggler-icon bs-navbar-toggler-icon-bg"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <!--opcoes do menu-->
+                    <ul id="ulMenu" class="navbar-nav align-items-center justify-content-between">
+
+                        <li class="nav-item">
+                        <a aria-current="page" href="../index.html">Início</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                        <a  href="sobre.html">Sobre</a>
+                        </li>
+
+                        <!--opcao de especialidades-->
+                        <li id="liEspecialidades" class="nav-item">
+                        <a id="opEspecialidades">Especialidades <i id="iconSeta" class="fa-solid fa-sort-down"></i></a>
+                        </li>
+
+                        <div id="especialidades" class="disappear">
+
+                            <li class="nav-item especialidades"> <a href="avNeuroPsico.html">Avaliação Neuropsicológica</a> </li>
+
+                            <li class="nav-item especialidades"> <a href="avBariatrica.html"> Avaliação e acompanhamento pré e pós cirurgia bariátrica</a> </li>
+
+                            <li class="nav-item especialidades"> <a href="acupuntura.html">Acupuntura </a> </li>
+
+                            <li class="nav-item especialidades"> <a href="psicologia.html">Psicologia</a> </li>
+
+                            <li class="nav-item especialidades"> <a href="fonoaudiologia.html">Fonoaudiologia</a> </li>
+
+                            <li class="nav-item especialidades"> <a href="nutricao.html">Nutrição</a> </li>
+
+                        </div>
+
+                        <li class="nav-item">
+                        <a href="../index.html#avaliacoes">Avaliações</a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a href="../index.html#areaUnidades">Unidades</a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a href="bastidores.html">Bastidores</a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a href="publicacoes.html">Publicações</a>
+                        </li>
+
+                        <!--btn fale conosco-->
+                        <li class="liBtnFaleConosco ms-5" class="nav-item">
+                        <a class="btnFaleConosco" class="nav-link ps-5" href="https://api.whatsapp.com/send?phone=5561981185135&amp;text=Ol%C3%A1,%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20o%20Instituto%20Caminhar" target="_blank">Fale conosco</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+    <!--fim header-->
+
+    <main class="d-flex flex-column align-items-center mb-5 mt-5">
+
+        <!--area do top oda pagina ded publicacoes-->
+        <section id="areaTopoPublicacoes">
+
+            <h1 class="text-dark">Publicações</h1>
+            <h3 class="text-dark">Conheça nosso livro e acompanhe nossos conteúdos</h3>
+
+        </section>
+
+        <!--area para a publicacao-->
+        <section id="areaPublicacao" class="d-flex flex-column justify-content-center align-items-center p-2">
+
+            <div id="cardLivro" class="d-flex align-items-center flex-column p-2">
+
+                <div id="imgCapaLivro">
+                    <img src="../IMGS/publicacoes/banner-livro.jpeg" alt="">
+                </div>
+
+                <h3 class="text-dark fs-5 text-center p-2">O ESPETÁCULO DO CUIDADO CLÍNICO</h3>
+
+                <p class="textoCinza align-self-start">
+                Autoras: <br>
+                Elivia Jacobina <br>
+                Fernanda Venâncio
+                </p>
+
+            </div>
+
+            <h2 class="align-self-start text-dark">Nosso Livro</h2>
+            <p class="textoCinza align-self-start">Publicado pelas fundadoras</p>
+            <p id="descricaoLivro">Este livro representa o conhecimento e a experiência acumulada pelas fundadoras. Mais que uma leitura sobre técnicas  ou protocolos, trata-se de uma reflexão profunda sobre a dimensão emocional, social e ética do cuidado.</p>
+
+        </section>
+
+        <!--area para o instagram-->
+        <a id="linkInstagram" href="https://www.instagram.com/oespetaculodocuidado/" target="_blank" class="d-flex mt-5 justify-content-between align-items-center p-1">
+
+            <div id="containerIconeInstagram" class="d-flex justify-content-center align-items-center">
+                <img id="iconeInstagram" src="../IMGS/icones/icone_instagram.png" alt="icone-instagram">
+            </div>
+
+            <div >
+                <h3 class="fs-6 text-white text-start m-0 p-0">Siga no Instagram</h3>
+                <p class="text-white m-0">@oespetaculodocuidado <br>
+                Conteúdos exclusivos sobre o livro</p>
+            </div>
+
+            <i class="fa-solid fa-up-right-from-square text-white"></i>
+        </a>
+
+    </main>
+
+    <!--rodapé-->
+    <footer class="d-flex justify-content-center">
+
+        <div id="containerFooter" class="d-flex flex-column align-items-center">
+
+            <img src="../IMGS/logo/logo-2.png" alt="logo-instituto-caminhar" width="100px">
+            <h3 class="text-white">Contatos</h3>
+            <p class="text-white mb-0"><i class="fa-solid fa-phone text-white pe-3"></i>(61) 3042-1750</p>
+            <p class="text-white mb-0"><i class="fa-solid fa-phone text-white pe-3"></i>(61) 98118-5135</p>
+            <p class="text-white text-center pt-2 m-0">Se você valoriza cuidado no atendimento ao cliente trabalhe com a gente!</p>
+            <p class="text-white text-center">Envie seu currículo para:</p>
+            <p class="text-white"><i class="fa-regular fa-envelope"></i>contato@institutocaminhar.com.br</p>
+
+            <div id="direitosContainer">
+                <p class="text-white direitos"><i class="fa-regular fa-copyright text-white"></i>2025 todos os direitos reservados - Instituto Caminhar</p>
+
+                <p class="text-white direitos">Desenvolvido por: <a id="linkDev" href="https://lzeunfa.github.io/Portfolio/sobre.html" target="_blank">Dev Eliseu</a></p>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!--swiper js sscript-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="../JS/swiper.js"></script>
+
+    <!--js do instituto-->
+    <script src="../JS/instituto.js"></script>
+    
+    <!--bootstrap js-->
+    <script src="../bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--script para o funcinamento da biblioteca de animações-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
