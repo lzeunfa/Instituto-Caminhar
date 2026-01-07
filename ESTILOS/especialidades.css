@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/*as paginas de especialidades seguem as mesmas estruturas basicamente*/
+
 /*inicio av neuro psico*/
 
 #containerGeralSobreEspecialidade{
@@ -36,10 +38,6 @@
 #nomeEspecialidade h1{
     color: white;
 }
-
-/*inicio av neuro psico*/
-
-/*inicio sobre a especialidade av neuro psico*/
 
 .textoEspecAzul{
     color: var(--corSec);
