@@ -167,6 +167,17 @@
     background-position: center top;
 }
 
+#bannerTrilhaSaudavel{
+    width: 90%;
+    max-width: 500px;
+
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.455);
+}
+
 /*fim sobre a especialdiade av bariatrica*/
 
 /*inicio sobre a especialidade acupuntura*/
