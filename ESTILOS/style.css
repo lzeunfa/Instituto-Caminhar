@@ -442,10 +442,8 @@ h1,h2,h3{
 }
 
 .card-list .card-item{
-    max-width: 300px;
+    width: 300px;
     display: block;
-
-    padding: 18px;
 
 }
 
