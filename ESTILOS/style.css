@@ -439,13 +439,11 @@ h1,h2,h3{
 }
 
 .card-list .card-item{
-    list-style: none;
-}
-
-.card-list .card-item{
     width: 300px;
+
     display: block;
 
+    list-style: none;
 }
 
 .card-list .card-image{
