@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+#btnVoltar{
+    background-color: transparent;
+
+    border: none;
+    border-radius: 10px;
+
+    color: white;
+
+    font-size: 0.8em;
+    font-weight: bold;
+
+    padding: 8px 10px;
+
+    transition: .5s;
+}
+
+#btnVoltar:hover{
+    background-color: white;
+
+    color: var(--corSec);
+}
+
+/*inicio area main*/
+
+#cntPoliticas{
+    padding: 10px;
+
+    max-width: 1000px;
+    min-width: 320px;
+}
+
+#cntPoliticas h1{
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    font-size: 2em;
+
+    text-align: left;
+}
+
+#cntPoliticas h2{
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    font-size: 1.7em;
+
+    text-align: left;
+}
+
+.textUltimaAtt{
+    color: var(--textoCinzaSec);
+
+    font-weight: 100;
+}
+
+.cntInfosInstituicao{
+    background-color: #F2F0ED;
+
+    padding: 10px;
+
+    width: 100%;
+    border-radius: 10px;
+
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.241);
+}
+
+.textCinza{
+    color: rgb(103, 103, 103);
+
+    font-weight: bold;
+}
+
+.textCinza2{
+    color: rgb(103, 103, 103);
+}

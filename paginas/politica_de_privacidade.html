@@ -37,8 +37,154 @@
 
     <!--css bastidores-->
     <link rel="stylesheet" href="../ESTILOS/bastidores.css">
+
+    <!--css politicas-->
+    <link rel="stylesheet" href="../ESTILOS/politicas.css">
+
+    <!--fonte especial-->
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+    </style>
 </head>
 <body>
+
+    <!--cabecalho menu-->
+    <header id="menu">
+
+        <!--navbar para o menu bootstrap-->
+        <nav id="navHeader" class="navbar navbar-expand-xl navbar-dark d-flex justify-content-center">
+
+            <!--div para ajustar tamanho ocupado pelo conteudo-->
+            <div id="containerHeader">
+
+                <!--div para centralização de conteúdo em tela pequena-->
+                <div id="divLogoMenu" class="d-flex align-items-center justify-content-between w-100">
+
+                    <!--logo do instituto-->
+                    <img id="logoInstituto" class="me-2" src="../IMGS/logo/logo-2.png">
+
+                    <!--btn para voltar para a página principal-->
+                    <a href="../index.html">
+                        <button id="btnVoltar">
+                            <i class="fa-solid fa-arrow-left pe-3"></i>
+                            Voltar
+                        </button>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+    <!--fim header-->
+
+    <main id="mainPoliticas" class="d-flex flex-column justify-content-center align-items-center">
+
+        <div id="cntPoliticas">
+
+            <h1 class="playfair">Política de Privacidade</h1>
+            <p class="textUltimaAtt">Última atualização: 22/01/2026</p>
+
+            <h2>1. Informações da Instituição</h2>
+
+            <div class="cntInfosInstituicao">
+                <p><span class="textCinza">Razão social:</span> <span class="textCinza2">lorem lorem lorem</span></p>
+                <p><span class="textCinza">CNPJ:</span> <span class="textCinza2">lorem lorem lorem</span></p>
+                <p><span class="textCinza">Endereço:</span> <span class="textCinza2">lorem lorem lorem</span></p>
+                <p><span class="textCinza">Responsável Técnico:</span> <span class="textCinza2">lorem lorem lorem</span></p>
+            </div>
+
+            <h2 class="mt-4">2. Introdução</h2>
+            <p class="textCinza2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque provident excepturi enim accusantium. Pariatur deleniti veniam odit quis magni reprehenderit sequi sint debitis nihil iure at, incidunt dignissimos quibusdam placeat?</p>
+
+            <h2 class="mt-4">3. Dados Coletados</h2>
+            <p class="textCinza2">Podemos coletar os seguintes tipos de dados pessoais:</p>
+            <ul class="textCinza2">
+                <li><span class="textCinza">Dados de identificação:</span>  nome completo, CPF, RG, data de nascimento.</li>
+                <li><span class="textCinza">Dados de saúde:</span>  histórico médico, resultados de exames, prontuários.</li>
+                <li><span class="textCinza">Dados de contato:</span> endereço, telefone, e-mail.</li>
+                <li><span class="textCinza">Dados de convênio:</span> número da carteirinha, plano de saúde.</li>
+                <li><span class="textCinza">Dados de navegação:</span> cookies, endereço IP, páginas visitadas.</li>
+            </ul>
+
+            <h2 class="mt-4">4. Finalidade do Tratamento </h2>
+            <p class="textCinza2">Utilizamos seus dados pessoais para:</p>
+            <ul class="textCinza2">
+                <li>Agendamento e realização de consultas e procedimentos médicos.</li>
+                <li>Elaboração e manutenção de prontuários médicos.</li>
+                <li>Faturamento e cobrança de serviços junto aos convênios.</li>
+                <li>Comunicação sobre consultas, resultados e informações de saúde.</li>
+                <li>Cumprimento de obrigações legais e regulatórias.</li>
+                <li>Melhoria dos nossos serviços e atendimento.</li>
+            </ul>
+
+            <h2 class="mt-4">5. Base Legal </h2>
+            <p class="textCinza2">O tratamento de dados pessoais pela Clinique Santé é realizado com base nas seguintes hipóteses legais previstas na LGPD: consentimento do titular, cumprimento de obrigação legal, execução de contrato, tutela da saúde e proteção da vida.</p>
+
+            <h2 class="mt-4">6. Compartilhamento de Dados </h2>
+            <p class="textCinza2">Seus dados podem ser compartilhados com:</p>
+            <ul class="textCinza2">
+                <li>Operadoras de planos de saúde para faturamento.</li>
+                <li>Laboratórios e outros prestadores de serviços de saúde.</li>
+                <li>Órgãos reguladores quando exigido por lei.</li>
+                <li>Prestadores de serviços de tecnologia (com garantias de segurança).</li>
+            </ul>
+            
+            <h2 class="mt-4">7. Segurança dos Dados </h2>
+            <p class="textCinza2">Adotamos medidas técnicas e organizacionais adequadas para proteger seus dados pessoais contra acesso não autorizado, perda, alteração ou destruição. Nossos sistemas são protegidos por criptografia, controles de acesso e monitoramento constante.</p>
+
+            <h2 class="mt-4">8. Retenção de Dados </h2>
+            <p class="textCinza2">Os dados de saúde são mantidos pelo período mínimo de 20 anos após o último atendimento, conforme exigência do Conselho Federal de Medicina (Resolução CFM nº 1.821/2007). Outros dados são mantidos pelo tempo necessário para cumprir as finalidades descritas.</p>
+
+            <h2 class="mt-4">9. Seus Direitos </h2>
+            <p class="textCinza2">Como titular dos dados, você tem direito a:</p>
+            <ul class="textCinza2">
+                <li>Confirmar a existência de tratamento de dados.</li>
+                <li>Acessar seus dados pessoais.</li>
+                <li>Solicitar correção de dados incompletos ou desatualizados.</li>
+                <li>Solicitar anonimização, bloqueio ou eliminação de dados desnecessários.</li>
+                <li>Revogar consentimento quando aplicável.</li>
+                <li>Obter informações sobre compartilhamento de dados.</li>
+            </ul>
+
+            <h2>10. Contato</h2>
+            <p class="textCinza2">Para exercer seus direitos ou esclarecer dúvidas sobre esta Política de Privacidade, entre em contato conosco:</p>
+
+            <div class="cntInfosInstituicao">
+                <p><span class="textCinza">Email:</span> <span class="textCinza2">lorem lorem lorem</span></p>
+                <p><span class="textCinza">Telefone:</span> <span class="textCinza2">lorem lorem lorem</span></p>
+                <p><span class="textCinza">Endereço:</span> <span class="textCinza2">lorem lorem lorem</span></p>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!--rodapé-->
+    <footer class="d-flex justify-content-center">
+
+        <div id="containerFooter" class="d-flex flex-column align-items-center">
+
+            <img src="../IMGS/logo/logo-2.png" alt="logo-instituto-caminhar" width="100px">
+            <h3 class="text-white">Contatos</h3>
+            <p class="text-white mb-0"><i class="fa-brands fa-instagram text-white pe-4 fs-4"></i>@icaminhar</p>
+            <p class="text-white mb-0"><i class="fa-solid fa-phone text-white pe-3"></i>(61) 3042-1750</p>
+            <p class="text-white mb-0"><i class="fa-solid fa-phone text-white pe-3"></i>(61) 98118-5135</p>
+            <p class="text-white text-center pt-2 m-0">Se você valoriza cuidado no atendimento ao cliente trabalhe com a gente!</p>
+            <p class="text-white text-center">Envie seu currículo para:</p>
+            <p class="text-white"><i class="fa-regular fa-envelope"></i>contato@institutocaminhar.com.br</p>
+
+            <div id="direitosContainer">
+                <p class="text-white direitos"><i class="fa-regular fa-copyright text-white"></i>2025 todos os direitos reservados - Instituto Caminhar</p>
+
+                <p class="text-white direitos">Desenvolvido por: <a id="linkDev" href="https://lzeunfa.github.io/Portfolio/sobre.html" target="_blank">Dev Eliseu</a></p>
+            </div>
+
+        </div>
+
+    </footer>
     
     <!--swiper js sscript-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>

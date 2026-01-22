@@ -1267,11 +1267,35 @@
 
     </footer>
 
-    <!--script para mostragem do pop up de politica de privacidade-->
+    <!--div para o pop up da pagina de politicas-->
+    <div id="pop-up">
+
+        <!--div container para organização-->
+        <div id="cntPopUp" class="d-flex flex-column align-items-center justify-content-center">
+            <h2 class="fs-5">Acesse nossas políticas de privacidade</h2>
+
+            <!--div para manter os botões lado a lado-->
+            <div>
+                <a href="paginas/politica_de_privacidade.html" class="text-decoration-none">
+                    <button id="btnPopUpA" class="btnPopUp">Acessar</button>
+                </a>
+                <button id="btnPopUpF" class="btnPopUp">Fechar</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--script para exclusão do pop-up de politicas-->
     <script>
 
         $(document).ready(()=>{
-            
+
+            //fecha o pop up
+            $('#btnPopUpF').on('click', () =>{
+                $('#pop-up').css('display', 'none');
+            });
+
         });
 
     </script>
