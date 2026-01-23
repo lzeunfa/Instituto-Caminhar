@@ -39,12 +39,18 @@
 
         top: 60%;
         left: 34%;
+
+        z-index: 2000;
+
+        background-color: white;
     }
 
     #especialidades li{
         width: 250px;
 
-        background-color: rgb(215, 215, 215);
+        background-color: var(--corSec);
+
+        color: white;
     }
 
     #especialidades li:hover{
@@ -52,7 +58,7 @@
     }
 
     #especialidades a{
-        color: var(--corSec) !important;
+        color: white !important;
     }
 
     .estatisticas p, #areaTopoBastidores p{
