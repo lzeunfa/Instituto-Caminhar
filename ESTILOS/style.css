@@ -105,6 +105,10 @@ header li:hover{
     border: none;
 }
 
+#bodyIndex #aIndex, #bodySobre #aSobre, #bodyBastidores #aBastidores, #bodyPublicacoes #aPublicacoes{
+    border-bottom: 3px solid var(--corSec);
+}
+
 header a{
     color: white !important;
 
