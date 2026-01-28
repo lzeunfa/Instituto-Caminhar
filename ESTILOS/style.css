@@ -463,6 +463,11 @@ h1,h2,h3{
     margin-top: -35px;
 }
 
+.swiper-pagination-bullet{
+    width: 15px;
+    height: 15px;
+}
+
 .swiper-pagination-bullet-active{
     background-color: white;
 }
