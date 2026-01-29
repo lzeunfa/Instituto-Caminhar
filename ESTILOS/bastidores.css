@@ -55,3 +55,17 @@ body{
 .estatisticaEventos p{
     text-align: center;
 }
+
+#containerEventos{
+    max-width: 1000px;
+}
+
+.imgBastidores{
+    width: 300px;
+
+    border-radius: 10px;
+
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.405);
+
+    margin: 10px;
+}
