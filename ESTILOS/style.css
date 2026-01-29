@@ -133,6 +133,8 @@ header a{
     padding: 10px;
 
     border-radius: 4px; 
+
+    text-shadow: 1px 1px 1px black;
 }
 
 .btnFaleConosco:hover{
@@ -209,6 +211,8 @@ h1,h2,h3{
 .btnFaleConosco2{
     background-color: var(--laranjaPrin);
 
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.405);
+
     color: white;
 
     text-decoration: none;
@@ -218,6 +222,8 @@ h1,h2,h3{
     padding: 5px;
 
     font-family: 'inter bold';
+
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
 
 }
 
@@ -274,6 +280,8 @@ h1,h2,h3{
 
 .estatisticas p{
     font-size: 1.1em;
+
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.462);
 }
 
 /*inicio area instituto em numeros*/
@@ -704,7 +712,7 @@ footer{
     border: none;
     border-radius: 5px;
 
-    padding: 5px;
+    padding: 10px 15px;
 
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.548);
 
