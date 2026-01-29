@@ -625,6 +625,10 @@ h1,h2,h3{
     font-size: 1.2em;
 }
 
+.estrelas-avaliacaoD{
+    color: var(--estrela);
+}
+
 .texto-avaliacao{
     padding-bottom: 10px;
 
