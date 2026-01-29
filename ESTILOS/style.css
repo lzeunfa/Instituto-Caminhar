@@ -34,7 +34,7 @@
     --laranjaSec: #bb9045;
     --laranjaPrin: #FFB100;
 
-    --textoCinzaPrin: rgba(0, 0, 0, 0.507);
+    --textoCinzaPrin: rgba(0, 0, 0, 0.603);
     --textoCinzaSec: #A3A3A2;
 
     --fundoBrancoTransparente: rgba(255, 255, 255, 0.375);
@@ -280,8 +280,6 @@ h1,h2,h3{
 
 .estatisticas p{
     font-size: 1.1em;
-
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.462);
 }
 
 /*inicio area instituto em numeros*/
@@ -609,6 +607,8 @@ h1,h2,h3{
     justify-content: center;
 
     margin-bottom: 10px;
+
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.405);
 }
 
 .letra-nome{
@@ -618,7 +618,11 @@ h1,h2,h3{
 }
 
 .estrelas-avaliacao{
-    color: var(--estrela);
+    color: var(--corSec);
+
+    font-weight: bolder;
+
+    font-size: 1.2em;
 }
 
 .texto-avaliacao{
@@ -629,6 +633,8 @@ h1,h2,h3{
 
 .nome-avaliador{
     color: var(--textoCinzaPrin);
+
+    font-weight: bolder;
 }
 
 @keyframes spin{
@@ -657,6 +663,8 @@ iframe{
 
 .textoUnidades{
     color: var(--laranjaPrin);
+
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.645);
 }
 
 /*inicio area unidades*/
@@ -716,7 +724,9 @@ footer{
 
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.548);
 
-    margin: 5px;
+    cursor: pointer;
+
+    margin: 10px;
 }
 
 #btnPopUpA{
@@ -730,6 +740,8 @@ footer{
 
 #btnPopUpF{
     color: var(--corSec);
+
+    padding: 10px 22px;
 }
 
 #btnPopUpF:hover{

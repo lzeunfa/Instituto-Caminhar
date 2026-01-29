@@ -50,6 +50,10 @@
 
 .btnFaleConoscoSobre{
     align-self: center;
+
+    font-size: 1.1em;
+
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
 /*fim area da introducao do sobre*/
